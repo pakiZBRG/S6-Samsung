@@ -31,7 +31,7 @@ const scene1 = new ScrollMagic.Scene({
 })
    .setTween(tlFirstScroll)
    .addTo(controller)
-   .addIndicators();
+   //.addIndicators();
 
 
 const tlSecondScroll = new TimelineMax();
@@ -58,7 +58,7 @@ const scene2 = new ScrollMagic.Scene({
    .setTween(tlSecondScroll)
    .addTo(controller)
    .setPin('#trigger2')
-   .addIndicators();
+   //.addIndicators();
 
 
 const tlThirdScroll = new TimelineMax();
@@ -79,6 +79,6 @@ const scene3 = new ScrollMagic.Scene({
    .setTween(tlThirdScroll)
    .addTo(controller)
    .setPin('#trigger3')
-   .addIndicators();
+   //.addIndicators();
 
 
